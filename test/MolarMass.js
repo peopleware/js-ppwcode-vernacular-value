@@ -17,6 +17,7 @@ limitations under the License.
 define(["../MolarMass", "./SiScalarQuantitativeValue"],
   function(MolarMass, testGenerator) {
 
+    //noinspection MagicNumberJS
     testGenerator(
       MolarMass,
       {

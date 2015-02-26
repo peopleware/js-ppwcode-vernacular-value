@@ -17,6 +17,7 @@ limitations under the License.
 define(["../DynamicViscosity", "./ScalarQuantitativeValue"],
   function(DynamicViscosity, testGenerator) {
 
+    //noinspection MagicNumberJS
     testGenerator(
       DynamicViscosity,
       {

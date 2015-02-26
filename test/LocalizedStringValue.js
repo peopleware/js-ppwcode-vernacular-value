@@ -17,6 +17,7 @@ limitations under the License.
 define(["../LocalizedStringValue", "ppwcode-vernacular-semantics/test/Value"],
   function(LocalizedStringValue, testGeneratorValue) {
 
+    //noinspection FunctionNamingConventionJS
     function testGeneratorLocalizedStringValue(Constructor, kwargs1, kwargs2) {
 
       testGeneratorValue(Constructor, kwargs1, kwargs2);

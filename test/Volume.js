@@ -17,6 +17,7 @@ limitations under the License.
 define(["../Volume", "./SiScalarQuantitativeValue"],
   function(Volume, testGenerator) {
 
+    //noinspection MagicNumberJS
     testGenerator(
       Volume,
       {

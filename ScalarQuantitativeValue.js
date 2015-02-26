@@ -141,6 +141,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value",
       });
 
 
+      //noinspection ParameterNamingConventionJS
       function getSupportedUnits(ScalarQuantitativeValueConstructor) {
         if (!ScalarQuantitativeValueConstructor.prototype.isInstanceOf(ScalarQuantitativeValue)) {
           throw "ERROR: precondition violation: constructor is not a subtype of ScalarQuantitativeValue";

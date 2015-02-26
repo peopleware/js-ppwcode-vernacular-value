@@ -21,6 +21,7 @@ define(["../Mass", "./SiScalarQuantitativeValue"],
       testGenerator(Constructor, kwargs1, kwargs2, renameds);
     }
 
+    //noinspection MagicNumberJS,MagicNumberJS
     testGenerator(
       Mass,
       {

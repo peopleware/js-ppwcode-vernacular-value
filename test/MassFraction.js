@@ -21,6 +21,7 @@ define(["../MassFraction", "./Fraction"],
       testGeneratorFraction(Constructor, kwargs1, kwargs2, renameds);
     }
 
+    //noinspection MagicNumberJS,MagicNumberJS,MagicNumberJS
     testGeneratorFraction(
       MassFraction,
       {

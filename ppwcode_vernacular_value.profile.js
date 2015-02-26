@@ -14,15 +14,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-var profile = (function () {
+var profile = (function () { // jshint ignore:line
+
+  //noinspection JSUnusedLocalSymbols
   function isTest(filename, mid) {
     return filename.indexOf("test/") >= 0;
   }
 
+  //noinspection JSUnusedLocalSymbols
   function isCopyOnly(filename, mid) {
     return filename.indexOf(".html") >= 0;
   }
 
+  //noinspection JSUnusedLocalSymbols
   function isAmd(filename, mid) {
     return filename.indexOf(".json") < 0 && filename.indexOf(".js") >= 0 && filename.indexOf(".profile.js") < 0;
   }

@@ -31,11 +31,13 @@ define(["dojo/_base/declare", "./SiScalarQuantitativeValue", "ppwcode-util-colle
             return this.scalarValue;
           }
           else {
+            //noinspection MagicNumberJS,MagicNumberJS
             return this.getScalarValueAs("Hz") * 60;
           }
         }
         else if (this.unit === TPM) { // and unit is not
           var unitPrefix = this.getUnitPrefix(unit);
+          //noinspection MagicNumberJS
           var thisAsHz = this.scalarValue / 60;
           var factor = -SiScalarQuantitativeValue.siFactor[unitPrefix];
           return thisAsHz * Math.pow(10, factor);

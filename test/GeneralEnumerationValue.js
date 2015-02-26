@@ -17,6 +17,7 @@ limitations under the License.
 define(["../GeneralEnumerationValue", "ppwcode-vernacular-semantics/test/Value"],
   function(GeneralEnumerationValue, testGeneratorValue) {
 
+    //noinspection FunctionNamingConventionJS
     function testGeneratorGeneralEnumerationValue(Constructor, kwargs1, kwargs2) {
 
       testGeneratorValue(Constructor, kwargs1, kwargs2);

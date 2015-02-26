@@ -21,6 +21,7 @@ define(["../UndeterminedMassFraction", "./MassFraction"],
       testGeneratorMassFraction(Constructor, kwargs1, kwargs2);
     }
 
+    //noinspection MagicNumberJS,MagicNumberJS
     testGeneratorMassFraction(
       UndeterminedMassFraction,
       {

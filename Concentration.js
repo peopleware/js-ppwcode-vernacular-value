@@ -31,7 +31,7 @@ define(["dojo/_base/declare", "./SiScalarQuantitativeValue", "ppwcode-util-colle
         // NOP
       ],
 
-      getScalarValueAs: function(/*String*/ unit) {
+      getScalarValueAs: function(/*String*/ unit) { // jshint ignore:line
         if (unit === this.unit) {
           return this.scalarValue;
         }

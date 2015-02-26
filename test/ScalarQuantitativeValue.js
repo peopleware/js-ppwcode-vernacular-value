@@ -27,6 +27,7 @@ define(["contracts/doh",
     SqvMock.extraSupportedUnits = new Set({elementType: "string", data: [mockUnit]});
     SqvMock.mid = ScalarQuantitativeValue.mid;
 
+    //noinspection FunctionNamingConventionJS
     function testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, renameds) {
       if (!Constructor) {
         throw "CANNOT CREATE TESTS: no value type constructor.";
@@ -140,6 +141,7 @@ define(["contracts/doh",
 
     }
 
+    //noinspection MagicNumberJS
     testGeneratorScalarQuantitativeValue(
       SqvMock,
       {

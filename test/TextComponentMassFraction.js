@@ -21,6 +21,7 @@ define(["../TextComponentMassFraction", "./MassFraction"],
       testGeneratorMassFraction(Constructor, kwargs1, kwargs2);
     }
 
+    //noinspection MagicNumberJS,MagicNumberJS,MagicNumberJS,MagicNumberJS
     testGeneratorMassFraction(
       TextComponentMassFraction,
       {

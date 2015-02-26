@@ -25,6 +25,7 @@ define(["contracts/doh",
     SiSqvMock.mid = "pictoperfect-viewmodel/value/SiScalarQuantitativeValue";
     SiSqvMock.baseUnit = "-BASE UNIT";
 
+    //noinspection FunctionNamingConventionJS
     function testGeneratorSiScalarQuantitativeValue(Constructor, kwargs1, kwargs2, renameds) {
 
       testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, renameds);
@@ -97,6 +98,7 @@ define(["contracts/doh",
 
     }
 
+    //noinspection MagicNumberJS
     testGeneratorSiScalarQuantitativeValue(
       SiSqvMock,
       {

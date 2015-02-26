@@ -17,6 +17,7 @@ limitations under the License.
 define(["../Frequency", "./SiScalarQuantitativeValue"],
   function(Frequency, testGenerator) {
 
+    //noinspection MagicNumberJS
     testGenerator(
       Frequency,
       {

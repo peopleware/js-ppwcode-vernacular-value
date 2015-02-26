@@ -120,6 +120,7 @@ define(["dojo/_base/declare", "./ScalarQuantitativeValue",
       });
 
       // The value of the property is the power of 10
+      //noinspection MagicNumberJS
       SiScalarQuantitativeValue.siFactor = {
         // factors commented out because they will not be used
 //        "y": -24, // yocto-

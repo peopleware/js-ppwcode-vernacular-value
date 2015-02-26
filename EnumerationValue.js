@@ -78,6 +78,7 @@ define(["dojo/_base/declare", "./_QualifiedValue", "module"],
         return eValue.enumValue;
       };
 
+      //noinspection JSUnusedLocalSymbols
       EnumerationValue.parse = function(EnumValueConstructor, str, options) {
         if (!str || str === "N/A") {
           return null;

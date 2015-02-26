@@ -21,6 +21,7 @@ define(["../Fraction", "./ScalarQuantitativeValue"],
       testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, renameds);
     }
 
+    //noinspection MagicNumberJS,MagicNumberJS,MagicNumberJS
     testGeneratorScalarQuantitativeValue(
       Fraction,
       {

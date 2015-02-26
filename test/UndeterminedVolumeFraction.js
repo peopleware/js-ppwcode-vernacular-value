@@ -17,6 +17,7 @@ limitations under the License.
 define(["../UndeterminedVolumeFraction", "./Fraction"],
   function(UndeterminedVolumeFraction, testGeneratorFraction) {
 
+    //noinspection MagicNumberJS
     testGeneratorFraction(
       UndeterminedVolumeFraction,
       {
