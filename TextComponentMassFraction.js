@@ -63,7 +63,7 @@ define(["dojo/_base/declare", "./MassFraction", "./_QualifiedValue",
 
       add: function(/*Fraction*/ other) {
         var sum = this.scalarValue + other.getScalarValueAs(this.unit);
-        if (this.component == other.component) {
+        if (this.component === other.component) {
           return new (this.constructor)({
             scalarValue: sum,
             unit: this.unit,
