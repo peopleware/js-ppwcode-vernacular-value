@@ -17,6 +17,7 @@ limitations under the License.
 define(["../Concentration", "./SiScalarQuantitativeValue"],
   function(Concentration, testGenerator) {
 
+    //noinspection MagicNumberJS
     testGenerator(
       Concentration,
       {

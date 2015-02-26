@@ -19,6 +19,7 @@ define(["dojo/_base/declare", "./ScalarQuantitativeValue", "ppwcode-util-collect
 
     var m2pers = "m²/s";
     var mm2pers = "mm²/s";
+    //noinspection MagicNumberJS
     var factor = 10e6;
 
     var KinematicViscosity = declare([ScalarQuantitativeValue], {

@@ -17,6 +17,7 @@ limitations under the License.
 define(["../ThermodynamicTemperature", "./ScalarQuantitativeValue"],
   function(ThermodynamicTemperature, testGenerator) {
 
+    //noinspection MagicNumberJS
     testGenerator(
       ThermodynamicTemperature,
       {

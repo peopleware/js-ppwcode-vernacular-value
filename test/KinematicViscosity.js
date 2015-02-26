@@ -17,6 +17,7 @@ limitations under the License.
 define(["../KinematicViscosity", "./ScalarQuantitativeValue"],
   function(KinematicViscosity, testGenerator) {
 
+    //noinspection MagicNumberJS
     testGenerator(
       KinematicViscosity,
       {

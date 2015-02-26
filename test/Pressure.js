@@ -17,6 +17,7 @@ limitations under the License.
 define(["../Pressure", "./SiScalarQuantitativeValue"],
   function(Pressure, testGenerator) {
 
+    //noinspection MagicNumberJS
     testGenerator(
       Pressure,
       {

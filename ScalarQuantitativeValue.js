@@ -215,6 +215,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value",
             unitStartPosition = str.indexOf(supportedUnits[i]);
             if (unitStartPosition >= 0) {
               unit = supportedUnits[i];
+              //noinspection BreakStatementJS
               break; // because sorted from longest to shortest, first hit is it
             }
           }
