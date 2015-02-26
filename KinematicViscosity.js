@@ -30,7 +30,7 @@ define(["dojo/_base/declare", "./ScalarQuantitativeValue", "ppwcode-util-collect
 
       getScalarValueAs: function(/*String*/ unit) {
         this._c_pre(function() {return unit;});
-        this._c_pre(function() {return this.getSupportedUnits().contains(unit)});
+        this._c_pre(function() {return this.getSupportedUnits().contains(unit);});
 
         if (unit === this.unit) {
           return this.scalarValue;

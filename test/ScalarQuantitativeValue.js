@@ -33,7 +33,7 @@ define(["contracts/doh",
         throw "CANNOT CREATE TESTS: no value type constructor.";
       }
       if (!Constructor.mid) {
-        throw "CANNOT CREATE TESTS: value type constructor has no mid"
+        throw "CANNOT CREATE TESTS: value type constructor has no mid";
       }
 
       testGeneratorValue(Constructor, kwargs1, kwargs2, renameds);

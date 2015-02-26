@@ -84,7 +84,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value",
           // description:
           //   Must be overridden if the class supports more then 1 unit.
           this._c_pre(function() {return unit;});
-          this._c_pre(function() {return this.getSupportedUnits().contains(unit)});
+          this._c_pre(function() {return this.getSupportedUnits().contains(unit);});
 
           return this.scalarValue; // return Number - works only if there is only 1 unit supported
         },

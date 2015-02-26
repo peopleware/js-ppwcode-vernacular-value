@@ -25,7 +25,7 @@ define(["dojo/_base/declare", "./SiScalarQuantitativeValue", "dojo/_base/lang", 
 
         times: function(/*Fraction*/ fraction) {
           var d = this.scalarValue * fraction.getScalarValueAs("0..1");
-          return new Mass({scalarValue: d, unit: this.unit})
+          return new Mass({scalarValue: d, unit: this.unit});
         }
 
       });

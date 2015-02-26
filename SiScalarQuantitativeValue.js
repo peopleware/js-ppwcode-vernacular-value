@@ -100,7 +100,7 @@ define(["dojo/_base/declare", "./ScalarQuantitativeValue",
           // description:
           //   The prefix is the first letter of the unit.
           this._c_pre(function() {return unit;});
-          this._c_pre(function() {return this.getSupportedUnits().contains(unit)});
+          this._c_pre(function() {return this.getSupportedUnits().contains(unit);});
 
           //            unit
           // this.unit    µg   mg    g   kg   Mg

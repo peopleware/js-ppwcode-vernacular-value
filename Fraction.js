@@ -37,7 +37,7 @@ define(["dojo/_base/declare", "./ScalarQuantitativeValue",
         // summary:
         //   Return the scalarValue in the given unit.
         this._c_pre(function() {return unit;});
-        this._c_pre(function() {return this.getSupportedUnits().contains(unit)});
+        this._c_pre(function() {return this.getSupportedUnits().contains(unit);});
 
         // factor is power-of-10 of (unitFactor[this.unit] - unitFactor[unit])
         var factor = unitFactor[this.unit] - unitFactor[unit];
