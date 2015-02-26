@@ -73,7 +73,7 @@ define(["dojo/_base/declare", "./_QualifiedValue", "module"],
 
       EnumerationValue.format = function(eValue, options) {
         if (!eValue) {
-          return (options && (options.na || options.na === "")) ? options.na : 'N/A';
+          return (options && (options.na || options.na === "")) ? options.na : "N/A";
         }
         return eValue.enumValue;
       };

@@ -85,7 +85,7 @@ define(["dojo/_base/declare", "./_QualifiedValue", "ppwcode-util-oddsAndEnds/xml
 
       LocalizedStringValue.format = function(lsValue, options) {
         if (!lsValue) {
-          return (options && (options.na || options.na === "")) ? options.na : 'N/A';
+          return (options && (options.na || options.na === "")) ? options.na : "N/A";
         }
         // don't escape XML by default; only do if options.escapeXml is explicity true (it isn't used in text boxes)
         if (options && options.escapeXml) {
@@ -97,7 +97,7 @@ define(["dojo/_base/declare", "./_QualifiedValue", "ppwcode-util-oddsAndEnds/xml
       };
 
       LocalizedStringValue.parse = function(str, options) {
-        if (!str || str === (options && options.na ? options.na : 'N/A')) {
+        if (!str || str === (options && options.na ? options.na : "N/A")) {
           return null;
         }
         if (!(options && options.locale)) {

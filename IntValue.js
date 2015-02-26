@@ -65,7 +65,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value", "dojo/_base/
 
     IntValue.format = function(intValue, options) {
       if (!intValue) {
-        return (options && (options.na || options.na === "")) ? options.na : 'N/A';
+        return (options && (options.na || options.na === "")) ? options.na : "N/A";
       }
       else {
         var opt = options ? lang.clone(options) : {};
@@ -76,7 +76,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value", "dojo/_base/
     };
 
     IntValue.parse = function(str, options) {
-      if (!str || str === (options && options.na ? options.na : 'N/A')) {
+      if (!str || str === (options && options.na ? options.na : "N/A")) {
         return null;
       }
       else {

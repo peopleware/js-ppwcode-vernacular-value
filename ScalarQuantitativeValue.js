@@ -172,7 +172,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value",
         //   If options.showNoUnit is true, the unit is not shown.
 
         if (!sqv) {
-          return (options && (options.na || options.na === "")) ? options.na : 'N/A';
+          return (options && (options.na || options.na === "")) ? options.na : "N/A";
         }
         else {
           var displayUnit = (options && options.unit) || sqv.unit;
@@ -203,7 +203,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value",
           throw "ERROR: SqvConstructor is not a subtype of ScalarQuantitativeValue";
         }
 
-        if (!str || str === (options && options.na ? options.na : 'N/A')) {
+        if (!str || str === (options && options.na ? options.na : "N/A")) {
           return null;
         }
         else {

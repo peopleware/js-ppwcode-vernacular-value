@@ -65,7 +65,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value", "ppwcode-uti
 
     StringValue.format = function(sValue, options) {
       if (!sValue) {
-        return (options && (options.na || options.na === "")) ? options.na : 'N/A';
+        return (options && (options.na || options.na === "")) ? options.na : "N/A";
       }
       // don't escape XML by default; only do if options.escapeXml is explicity true (it isn't used in text boxes)
       if (options && options.escapeXml) {
@@ -77,7 +77,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value", "ppwcode-uti
     };
 
     StringValue.parse = function(str, options) {
-      if (!str || str === (options && options.na ? options.na : 'N/A')) {
+      if (!str || str === (options && options.na ? options.na : "N/A")) {
         return null;
       }
       return new StringValue({text: str});

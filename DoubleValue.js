@@ -65,7 +65,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value", "dojo/number
 
     DoubleValue.format = function(doubleValue, options) {
       if (!doubleValue) {
-        return (options && (options.na || options.na === "")) ? options.na : 'N/A';
+        return (options && (options.na || options.na === "")) ? options.na : "N/A";
       }
       else {
         return number.format(doubleValue.numericValue, options);
@@ -73,7 +73,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value", "dojo/number
     };
 
     DoubleValue.parse = function(str, options) {
-      if (!str || str === (options && options.na ? options.na : 'N/A')) {
+      if (!str || str === (options && options.na ? options.na : "N/A")) {
         return null;
       }
       else {
