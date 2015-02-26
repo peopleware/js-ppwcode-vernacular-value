@@ -196,6 +196,8 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value",
         //   Not a parse function. To get a parse function, do
         //  lang.partial(ScalarQuantitativeValue.parse, ConcreteConstructor, "defaultDefaultUnit")
 
+        // TODO too complex. refactor.
+
         if (!(lang.isFunction(SqvConstructor) &&
               SqvConstructor.prototype &&
               SqvConstructor.prototype.isInstanceOf &&
