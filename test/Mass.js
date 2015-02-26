@@ -17,8 +17,8 @@ limitations under the License.
 define(["../Mass", "./SiScalarQuantitativeValue"],
   function(Mass, testGenerator) {
 
-    function testMass(Constructor, kwargs1, kwargs2, renameds) {
-      testGenerator(Constructor, kwargs1, kwargs2, renameds);
+    function testMass(Constructor, kwargs1, kwargs2, json2objectPropertyNames) {
+      testGenerator(Constructor, kwargs1, kwargs2, json2objectPropertyNames);
     }
 
     //noinspection MagicNumberJS,MagicNumberJS

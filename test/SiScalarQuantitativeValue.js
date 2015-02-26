@@ -26,9 +26,9 @@ define(["contracts/doh",
     SiSqvMock.baseUnit = "-BASE UNIT";
 
     //noinspection FunctionNamingConventionJS
-    function testGeneratorSiScalarQuantitativeValue(Constructor, kwargs1, kwargs2, renameds) {
+    function testGeneratorSiScalarQuantitativeValue(Constructor, kwargs1, kwargs2, json2objectPropertyNames) {
 
-      testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, renameds);
+      testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, json2objectPropertyNames);
 
       doh.register(Constructor.mid, [
 

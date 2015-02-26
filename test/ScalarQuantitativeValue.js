@@ -28,7 +28,7 @@ define(["contracts/doh",
     SqvMock.mid = ScalarQuantitativeValue.mid;
 
     //noinspection FunctionNamingConventionJS
-    function testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, renameds) {
+    function testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, json2objectPropertyNames) {
       if (!Constructor) {
         throw "CANNOT CREATE TESTS: no value type constructor.";
       }
@@ -36,7 +36,7 @@ define(["contracts/doh",
         throw "CANNOT CREATE TESTS: value type constructor has no mid";
       }
 
-      testGeneratorValue(Constructor, kwargs1, kwargs2, renameds);
+      testGeneratorValue(Constructor, kwargs1, kwargs2, json2objectPropertyNames);
 
       doh.register(Constructor.mid, [
         function testGetExtraSupportedUnits() {

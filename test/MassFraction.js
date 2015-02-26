@@ -17,8 +17,8 @@ limitations under the License.
 define(["../MassFraction", "./Fraction"],
   function(MassFraction, testGeneratorFraction) {
 
-    function testMassFraction(Constructor, kwargs1, kwargs2, renameds) {
-      testGeneratorFraction(Constructor, kwargs1, kwargs2, renameds);
+    function testMassFraction(Constructor, kwargs1, kwargs2, json2objectPropertyNames) {
+      testGeneratorFraction(Constructor, kwargs1, kwargs2, json2objectPropertyNames);
     }
 
     //noinspection MagicNumberJS,MagicNumberJS,MagicNumberJS

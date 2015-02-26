@@ -67,7 +67,7 @@ define(["dojo/_base/declare", "ppwcode-vernacular-semantics/Value", "ppwcode-uti
       if (!sValue) {
         return (options && (options.na || options.na === "")) ? options.na : "N/A";
       }
-      // don't escape XML by default; only do if options.escapeXml is explicity true (it isn't used in text boxes)
+      // don't escape XML by default; only do if options.escapeXml is explicitly true (it isn't used in text boxes)
       if (options && options.escapeXml) {
         return xml.escape(sValue.text);
       }

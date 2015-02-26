@@ -17,8 +17,8 @@ limitations under the License.
 define(["../Fraction", "./ScalarQuantitativeValue"],
   function(Fraction, testGeneratorScalarQuantitativeValue) {
 
-    function testFraction(Constructor, kwargs1, kwargs2, renameds) {
-      testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, renameds);
+    function testFraction(Constructor, kwargs1, kwargs2, json2objectPropertyNames) {
+      testGeneratorScalarQuantitativeValue(Constructor, kwargs1, kwargs2, json2objectPropertyNames);
     }
 
     //noinspection MagicNumberJS,MagicNumberJS,MagicNumberJS
